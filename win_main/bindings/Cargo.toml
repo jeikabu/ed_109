@@ -1,0 +1,15 @@
+[package]
+name = "bindings"
+version = "0.1.0"
+authors = ["jeikabu <jeikabu@users.noreply.github.com>"]
+edition = "2018"
+#categories = [""]
+license = "MIT"
+repository = "https://github.com/jeikabu/hookshot"
+description = "Bindings to windows"
+
+[dependencies]
+windows = "0.14"
+
+[build-dependencies]
+windows = "0.14"
